@@ -1,0 +1,377 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+	  margin: 0 auto;
+	  padding: 0;
+  }
+  
+  body {
+	font-family: "Arial";
+  }
+  #order {
+	  background: #d86c24;
+	  color: white;
+	  text-align: center;
+	  border: 2px solid #d86c24;
+	  padding: 15px 20px;
+	  border-radius: 8px;
+	  font-weight: bold;
+  }
+  #order:hover {
+	color: white;
+	border: 2px solid white;
+	background: none;
+  }
+  a {
+	text-decoration: none;
+  }
+  div .container {
+	background: white;  
+	display: inline-block;                       
+	padding-left: 30px;
+	padding-right: 30px;                       
+    border-radius: 4px;                        
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 50px 40px;
+	text-align: center;
+	width: 1170px;
+	height: 350px;
+  }
+header {
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+}
+.logo img {
+	float: left;
+	width: 350px;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+.clear {
+	clear: left;
+  }
+.nav {
+	float: right;
+	padding: 30px;
+}
+.nav a {
+	padding-right: 30px;
+	color: white;
+	display: inline-block;
+}
+.nav a:hover {
+	color: #d86c24;
+}
+.top-wrapper {
+	padding: 220px 0 180px 0;
+	background-image: url('images/bgimage.png');
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.top-wrapper h3{
+margin-top: 40px;
+}
+h1 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+#top-title {
+	padding-bottom: 50px;
+}
+.intro-wrapper {
+	margin-top: 60px;
+}
+.intro {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 70px;
+}
+.intro-col i {
+	margin: 20px 0;
+	background-color: rgba(216, 108, 36, 0.9);
+	border-radius: 16px;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	color: white;
+}
+.client{
+	float: left;
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.client img {
+	padding-top: 40px;
+}
+.sector{
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.sector img{
+	width: 100%;
+	padding-top: 50px;
+}
+.type {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.type img {
+	width: 100%;
+	padding-top: 50px;
+}
+#type1 {
+	width: 45%;
+}
+#type2 {
+	width: 20%;
+	padding-top: 30px;
+	text-align: left;
+	line-height: 2.5em;
+}#type3 {
+	width: 35%;
+	padding-top: 30px;
+}
+#sector1 {
+	width: 40%;
+}
+#sector2 {
+	width: 30%;
+	text-align: left;
+	line-height: 3em;
+}#sector3 {
+	width: 30%;
+}
+.subsector {
+	float: left;
+	width: 50%;
+}
+.flow {
+	float: left;
+	width: 31.5%;
+	padding: 0 10px;
+	background: darkturquoise;
+	color: white;                                                  
+  	border-radius: 4px;                        
+  	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  	margin-left: 10px;
+  	margin-right: 10px;
+	text-align: center;
+	height: 390px;
+  }
+.flow-col {
+	width: 1170px;
+	margin: 0 auto;
+}
+.flow h1 {
+	font-size: 54pt;
+	font-weight: bold;
+}
+.form {
+	margin-top: 40%;
+}
+  #form-button {
+	display: hidden;  
+	text-align: center;
+	border: 2px solid darkblue;
+	border-radius: 18px;
+	padding: 6px;
+	cursor: pointer;
+	margin: 0 auto;
+	}
+	#form-button:hover {
+	display: hidden;
+	background: darkblue;
+	color: white;
+	}
+  .reviews {
+	width: 1170px;
+	margin: 60px auto;
+	}
+	.review-row {
+	width: 100%;
+	}
+	.review-block {
+	float: left;
+	width: 30%;
+	margin: 40px 15px;
+	}
+  .written {
+	background-color: #d86c24;
+	color: white;
+	font-weight: normal;
+	border-radius: 6px;
+	text-align: left;
+	vertical-align: top;
+	padding: 8px;
+  }
+  .signed {
+	text-align: right;
+	margin-top: 15px;
+	}
+	.news-wrapper {
+	margin-top: 680px;
+	margin-bottom: 80px;
+	}
+  .news {
+	background: white;                     
+	padding: 30px;
+	width: 900px;                           
+    border-radius: 4px;                        
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 40px auto;
+  }
+  .video-container {
+	position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .video-container iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  footer {
+	  background-color: black;
+	  height: 220px;
+	  padding: 30px;
+	  color: white;
+	  margin: 0 auto;
+	}
+	.footer {
+	  display: flex;
+	  justify-content: space-between;
+	  height: 180px;
+	  }
+	footer a {
+	  color: white;
+  }
+  #footer-logo-div {
+	  flex-grow: 1;
+	}
+	#footer-link {
+		flex-grow: 2;
+		text-align: center;
+	}
+	#footer-sns {
+		flex-grow: 2;
+		text-align: right;
+	}
+	footer a {
+		margin: 30px 10px;
+	}
+	footer a:hover {
+		color: #d86c24;
+		cursor: pointer;
+	}
+  #footer-logo {
+	  width: 324px;
+  }
+  .login-modal-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	
+  }
+  .modal {
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	background-color: #e6ecf0;
+	padding: 20px 0 40px;
+	border-radius: 10px;
+	width: 450px;
+	height: auto;
+	text-align: center;
+  }
+	.fa-times {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		color: rgba(128, 128, 128, 0.46);
+		cursor: pointer;
+		}
+  .form-inline, .form-inline {
+	width: 100%;
+  }
+  
+.form-inline h2, .form-inline h2 {
+	color: #5f5d60;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+  }
+  
+ .form-inline {
+	width: 320px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	padding: 12px 12px;
+	border: 1px solid #d0d5d8;
+	border-radius: 5px;
+  }
+  .estimate {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;  
+	display: none;
+  }
+  #total {
+	  display: none;
+  }
+  .result {
+	  display: inline;
+  }
+  #result {
+	  border-bottom: 1px solid gray;
+	  font-size: 40px;
+	  font-family: serif;
+  }
+  .client-bubble {
+	  float: left;
+	  width: 100px;
+	  height: 100px;
+	  line-height: 100px;
+	  margin: 35px 10px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-weight: bold;
+  }
+  .client-bubble p {
+	  font-size: 11.5px;
+  }
+  .x {
+	  background-color: #d86c24;
+	  color: white;
+  }
+  .y {
+	border: 2px solid #d86c24
+}
+#profile {
+	width: 120px;
+}

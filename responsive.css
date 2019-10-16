@@ -1,0 +1,100 @@
+@media (max-width: 780px) {
+    .super-container {
+        margin: 0 10px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .top-wrapper {
+        background-position: right; 
+    }
+    div .container {                                      
+        border-radius: 4px;                        
+        box-shadow: 0 10px 30px rgba(0,0,0,.1);
+        margin: 20px auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    .intro {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .client {
+        width: 100%;
+        margin: 10px auto; 
+    }
+    .address {
+        width: 100%;
+        margin: 10px auto; 
+    }
+    .client-bubble {
+        float: left;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        margin: 35px 10px;
+        border-radius: 50%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .client-bubble p {
+        font-size: 10px;
+    }
+    #sector1, #sector2, #sector3 {
+        width: 100%;
+        margin: 10px auto; 
+    }
+    #type1, #type2, #type3 {
+        width: 100%;
+        margin: 10px auto; 
+    }
+    .flow-col {
+        width: 100%; 
+    }
+    .flow {
+        width: 100%;  
+        margin: 10px auto;
+    }
+    header {
+        height: auto;
+    }
+    .nav {
+        text-align: center;
+    }
+    .news {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .news-wrapper {
+        padding-top: 150px;
+    }
+    footer {
+        height: auto;
+    }
+    .reviews {
+        width: 100%;
+    }
+	.review-block {
+        width: 100%;
+		margin: 20px auto;
+    }
+    .footer {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #footer-logo-div, #footer-link, #footer-sns {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .modal {
+        left: 0;
+        width: 100%;
+      }
+}
